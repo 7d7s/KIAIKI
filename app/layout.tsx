@@ -14,7 +14,7 @@ const raleway = Raleway({
 });
 
 export const metadata: Metadata = {
-  title: "Kiakia",
+  title: "KIAKIA",
   description: "Interior",
   icons: {
     icon: "/favicon.ico",

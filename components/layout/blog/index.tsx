@@ -2,9 +2,8 @@ import { FC } from "react";
 import Image from "next/image";
 import Button from "@/components/common/button";
 import Link from "next/link";
-import { RiTimeFill } from "react-icons/ri";
 import { IoIosArrowForward } from "react-icons/io";
-// import DynamicBanner from "@/components/common/banner";
+import { IoTimeOutline } from "react-icons/io5";
 
 type Blog = {
   image: string;
@@ -20,28 +19,28 @@ const blogs: Blog[] = [
       category: "Insight",
       title: "8 Best Affordable Bathroom Remodel Ideas For Style On A Budget",
       description: "Discover creative and cost-effective ways to remodel your bathroom without breaking the bank. Transform your space with simple yet stylish ideas.",
-      date: "June 26, 2022",
+      date: "June 01, 2022",
     },
     {
       image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1744884187/Living_Room_j0keey.png",
       category: "Furniture",
       title: "12 Best Outdoor Furniture Ideas For Cozy Backyard Living",
       description: "Upgrade your backyard with these comfortable and stylish outdoor furniture ideas. Perfect for creating a relaxing and inviting outdoor space.",
-      date: "June 26, 2022",
+      date: "June 11, 2022",
     },
     {
       image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1744883436/Interior3_iyclnw.avif",
       category: "Interior",
       title: "Top 13 Luxury Home Décor Ideas For A High-End Interior",
       description: "Explore luxury home décor tips to give your interior a sophisticated and high-end look. Elevate your living space with elegant design choices.",
-      date: "June 26, 2022",
+      date: "Augest 05, 2022",
     },
     {
-        image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1744883436/Interior3_iyclnw.avif",
+        image: "https://res.cloudinary.com/ddgbehuxg/image/upload/v1745412078/Interior_Design_Ideas_usapmy.avif",
         category: "Interior",
         title: "Commercial Interior Design Ideas for a Productive Business",
         description: "Smart commercial interior design boosts focus, collaboration, and productivity — turning your workspace into a success zone.",
-        date: "June 26, 2022",
+        date: "Augest 11, 2022",
       },
   ];
   
@@ -84,12 +83,12 @@ const BlogSection: FC = () => {
         {/* Sidebar */}
         <aside className="space-y-10 relative text-black">
           <div className="sticky top-10">
-<div>
+<div className="p-5 rounded-md my-5">
 <h4 className="text-xl font-semibold mb-4">Recent Post</h4>
             <ul className="space-y-4 text-gray-700">
               {blogs.map((blog, i) => (
                 <li key={i} className="">
-                   <div className="flex items-center"> <RiTimeFill /> &nbsp;
+                   <div className="flex items-center"> <IoTimeOutline /> &nbsp;
                    <p className="text-sm text-gray-500">{blog.date}</p></div>
                   <Link href="" className="hover:text-primary-accent font-medium block">
                     {blog.title}
@@ -111,7 +110,7 @@ const BlogSection: FC = () => {
            />
           </div>
 
-          <div>
+          <div className="p-5">
             <h4 className="text-xl font-semibold mb-4">Categories</h4>
             <ul className="space-y-2 text-sm text-gray-700">
               <li className="flex items-center justify-start"><IoIosArrowForward /> &nbsp; <a href="#" className="hover:text-primary-accent">Insight</a></li>
