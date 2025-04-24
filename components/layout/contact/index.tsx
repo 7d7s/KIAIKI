@@ -8,7 +8,7 @@ const Contact: React.FC = () => {
       <div className='container mx-auto px-4 lg:px-16 pt-12'>
       <div className="grid lg:grid-cols-2 gap-10">
 
-        <div className="bg-white p-10 text-black lg:order-1 order-2" data-aos="fade-up">
+        <div className="bg-white md:p-10 p-4 text-black lg:order-1 order-2" data-aos="fade-up">
           <form className="space-y-6">
             <input
               type="text"
@@ -55,32 +55,40 @@ const Contact: React.FC = () => {
           </p>
 
           <div className="md:gap-8 gap-2 text-sm grid md:grid-cols-2">
-  <div className="flex items-start gap-3">
-    <FiMapPin className="text-white mt-1 p-3 text-5xl bg-primary-accent w-20 h-12" />
-    <div>
+          <div className="grid grid-cols-4 md:items-start md:gap-3">
+   <div className='flex justify-center'>
+   <FiMapPin className="text-white mt-1 p-3 text-5xl text-center bg-primary-accent w-12 h-12" />
+   </div>
+    <div className='col-span-3 md:ps-3'>
       <p><strong>Office Location:</strong></p>
       <p>I-102, Second Floor, Block I, Kirti Nagar, Delhi, 110015</p>
     </div>
   </div>
-  <div className="flex items-start gap-3">
-    <FiMapPin className="text-white mt-1 p-3 text-5xl bg-primary-accent w-20 h-12" />
-    <div>
+  <div className="grid grid-cols-4 items-start md:gap-3">
+    <div className='flex justify-center'>
+    <FiMapPin className="text-white mt-1 p-3 text-4xl bg-primary-accent w-12 h-12" />
+    </div>
+    <div className='col-span-3 md:ps-3'>
       <p><strong>2nd Office Location:</strong></p>
-      <p>I-102, Ground Floor, Block I, Kirti Nagar, Delhi, 491995</p>
+      <p>I-102, Second Floor, Block I, Kirti Nagar, Delhi, 491995</p>
     </div>
   </div>
 
-  <div className="flex items-start gap-3">
-  <FiPhone className="text-white mt-1 p-3 text-5xl bg-primary-accent w-20 h-12" />
-  <div>
+  <div className="grid grid-cols-4 items-start md:gap-3">
+    <div className='flex justify-center'>
+  <FiPhone className="text-white mt-1 p-3 text-5xl bg-primary-accent w-12 h-12" />
+  </div>
+  <div className='col-span-3 md:ps-3'>
     <p><strong>Call:</strong></p>
     <p> (+91) 834-0346-082 , (+91) 805-8678-682</p>
   </div>
   </div>
 
-  <div className="flex items-start gap-3">
-  <FiMail className="text-white mt-1 p-3 text-5xl bg-primary-accent w-20 h-12" />
-   <div> 
+  <div className="grid grid-cols-4 items-start md:gap-3">
+    <div className='flex justify-center'>
+  <FiMail className="text-white mt-1 p-3 text-5xl bg-primary-accent w-12 h-12" />
+  </div>
+  <div className='col-span-3 md:ps-3'>
    <p><strong>Email:</strong></p>
    <p> support@kaikai.com, contect@kaikai.com</p>
    </div>

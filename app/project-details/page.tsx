@@ -105,7 +105,7 @@ Living Room Design
                       </div>
             </div>
             <div className="md:pr-10">
-              <div className="sticky top-10 px-5">
+              <div className="sticky top-10">
               <ProjectInfo
   client="Amit Kumar"
   date="March 18, 2024"

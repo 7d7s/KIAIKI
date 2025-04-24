@@ -6,7 +6,7 @@ function page() {
   return (
     <>
            <DynamicBanner
-  imageUrl="https://res.cloudinary.com/ddgbehuxg/image/upload/v1745220686/banner_uf972x.avif"
+  imageUrl="https://res.cloudinary.com/ddgbehuxg/image/upload/v1745220686/aboutbanner_scvogx.avif"
   altText="About Banner"
   breadcrumbs={[
     { label: "Home", href: "/" },

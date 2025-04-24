@@ -48,22 +48,22 @@ export default function NavigationBar() {
 
   const navItems: NavItem[] = [
     { name: "Home", href: "/" },
+    { name: "About Us", href: "/about" },
     { 
       name: "Projects",
       href: "/projects",
       subItems: [
-        { name: "All Projects", href: "/projects" },
+        // { name: "All Projects", href: "/projects" },
         { name: "Project Details", href: "/project-details" }
       ]
     },
     { 
-      name: "Pages", 
-      href: "/about",
+      name: "Resources", 
+      href: "#",
       subItems: [
-        { name: "About Us", href: "/about" },
         { name: "Our Team", href: "/team" },
         { name: "FAQ", href: "/faq" },
-        { name: "404 Page", href: "/404" }
+        { name: "Services", href: "/services" },
       ]
     },
     { name: "Contact", href: "/contact" },
@@ -104,6 +104,13 @@ const isHomePage = pathnameI === "/";
                 </Link>
 
                 <Link
+                  href={"/about"}
+                  className={`border-b-2 px-3 pb-2 ${isActive("/about") ? "border-primary-givry text-primary-givry font-medium" : "border-transparent hover:border-primary-accent hover:text-primary-accent"}`}
+                >
+                  About Us
+                </Link>
+                
+                <Link
                   href={"/services"}
                   className={`border-b-2 px-3 pb-2 ${isActive("/services") ? "border-primary-givry text-primary-givry font-medium" : "border-transparent hover:border-primary-accent hover:text-primary-accent"}`}
                 >
@@ -111,25 +118,18 @@ const isHomePage = pathnameI === "/";
                 </Link>
                 
                 {/* Projects Dropdown */}
-                <div 
+                {/* <div 
                   className="relative group"
                   onMouseEnter={() => toggleDesktopDropdown("projects")}
                   onMouseLeave={() => toggleDesktopDropdown("projects")}
                 >
-                  <button
-                    className={`border-b-2 px-5 pb-2 flex items-center justify-center uppercase ${isActive("/projects") || isActive("/project-details") ? "border-primary-givry text-primary-givry font-medium" : "border-transparent hover:border-primary-accent hover:text-primary-accent"}`}
+                  <button className={`border-b-2 px-5 pb-2 flex items-center justify-center uppercase ${isActive("/projects") || isActive("/project-details") ? "border-primary-givry text-primary-givry font-medium" : "border-transparent hover:border-primary-accent hover:text-primary-accent"}`}
                   >
                     Projects &nbsp; 
                     {desktopDropdown === "projects" ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
                   </button>
                   {desktopDropdown === "projects" && (
                     <div className="absolute left-0 p-2 w-48 bg-white shadow-lg py-1 z-50">
-                      <Link 
-                        href="/projects" 
-                        className={`block px-4 py-4 text-sm ${isActive("/projects") ? "text-primary-accent bg-gray-50 font-medium" : "text-gray-700 hover:bg-primary-accent hover:text-white"}`}
-                      >
-                        All Projects
-                      </Link>
                       <Link 
                         href="/project-details" 
                         className={`block px-4 py-4 text-sm ${isActive("/project-details") ? "text-primary-accent bg-gray-50 font-medium" : "text-gray-700 hover:bg-primary-accent hover:text-white"}`}
@@ -138,28 +138,22 @@ const isHomePage = pathnameI === "/";
                       </Link>
                     </div>
                   )}
-                </div>
+                </div> */}
                 
                 {/* Pages Dropdown */}
                 <div 
                   className="relative group uppercase"
-                  onMouseEnter={() => toggleDesktopDropdown("pages")}
-                  onMouseLeave={() => toggleDesktopDropdown("pages")}
+                  onMouseEnter={() => toggleDesktopDropdown("resources")}
+                  onMouseLeave={() => toggleDesktopDropdown("resources")}
                 >
                   <button
-                    className={`border-b-2 px-2 pb-2 flex items-center uppercase justify-center ${isActive("/about") || isActive("/team") || isActive("/faq") || isActive("/404") ? "border-primary-givry text-primary-givry font-medium" : "border-transparent hover:border-primary-accent hover:text-primary-accent"}`}
+                    className={`border-b-2 px-2 pb-2 flex items-center uppercase justify-center ${isActive("/team") || isActive("/faq") || isActive("/projects")  || isActive("/project-details") ? "border-primary-givry text-primary-givry font-medium" : "border-transparent hover:border-primary-accent hover:text-primary-accent"}`}
                   >
-                    Pages &nbsp; 
-                    {desktopDropdown === "pages" ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
+                    Resources &nbsp; 
+                    {desktopDropdown === "resources" ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}
                   </button>
-                  {desktopDropdown === "pages" && (
+                  {desktopDropdown === "resources" && (
                     <div className="absolute left-0 p-2 w-48 bg-white shadow-lg py-3 ">
-                      <Link 
-                        href="/about" 
-                        className={`block px-4 py-4 text-sm ${isActive("/about") ? "text-primary-accent bg-gray-50 font-medium" : "text-gray-700 hover:bg-primary-accent hover:text-white"}`}
-                      >
-                        About Us
-                      </Link>
                       <Link 
                         href="/team" 
                         className={`block px-4 py-4 text-sm ${isActive("/team") ? "text-primary-accent bg-gray-50 font-medium" : "text-gray-700 hover:bg-primary-accent hover:text-white"}`}
@@ -173,10 +167,16 @@ const isHomePage = pathnameI === "/";
                         FAQ
                       </Link>
                       <Link 
-                        href="/404" 
-                        className={`block px-4 py-2 text-sm ${isActive("/404") ? "text-primary-accent bg-gray-50 font-medium" : "text-gray-700 hover:bg-primary-accent hover:text-white"}`}
+                        href="/projects" 
+                        className={`block px-4 py-2 text-sm ${isActive("/projects") ? "text-primary-accent bg-gray-50 font-medium" : "text-gray-700 hover:bg-primary-accent hover:text-white"}`}
                       >
-                        404 Page
+                        Projects 
+                      </Link>
+                      <Link 
+                        href="/project-details" 
+                        className={`block px-4 py-2 text-sm ${isActive("/project-details") ? "text-primary-accent bg-gray-50 font-medium" : "text-gray-700 hover:bg-primary-accent hover:text-white"}`}
+                      >
+                        Projects Details
                       </Link>
                     </div>
                   )}

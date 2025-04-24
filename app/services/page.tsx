@@ -1,5 +1,4 @@
 import DynamicBanner from '@/components/common/banner'
-import Contact from '@/components/layout/contact'
 import ConsultationSection from '@/components/layout/contact/consultationSection'
 import Faq from '@/components/layout/faq'
 import Services from '@/components/layout/service'
@@ -18,10 +17,8 @@ function page() {
   ]} title="Our Services"
 />
     <Services/>
-    <Contact/>
-    {/* <Testimonials/> */}
-    <ConsultationSection/>
       <Faq/>
+      <ConsultationSection/>
     </>
   )
 }

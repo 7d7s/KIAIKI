@@ -7,7 +7,7 @@ import Services from "@/components/layout/service";
 import ProcessSection from "@/components/layout/process";
 import Contact from "@/components/layout/contact";
 import Testimonials from "@/components/layout/testimonial";
-import ConsultationSection from "@/components/layout/contact/consultationSection";
+// import ConsultationSection from "@/components/layout/contact/consultationSection";
 import NewSection from "@/components/layout/news";
 import ProjectSection from "@/components/layout/project/project-details";
 
@@ -23,10 +23,11 @@ function Home() {
       <Services/>
       <ProjectSection/>
       <ProcessSection/>
-      <Contact/>
       <Testimonials/>
-      <ConsultationSection/>
+      {/* <ConsultationSection/> */}
+      <Contact/>
       <NewSection/>
+     
     </div>
   );
 }

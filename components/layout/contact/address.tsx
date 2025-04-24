@@ -2,12 +2,14 @@
 import React from "react";
 import { FaPhoneAlt, FaMapMarkerAlt, FaClock, FaEnvelope } from "react-icons/fa";
 import Button from "@/components/common/button";
+import Link from "next/link";
 
 const AddressSection = () => {
   return (
     <section className=" bg-white text-black">
         <div className="container mx-auto px-4 lg:px-16 md:py-20 py-5 text-center">
       <div className="w-full h-[400px]">
+        <Link target="_blank" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28011.80940513879!2d77.12064333312232!3d28.64545765523457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0304934fb67d%3A0x232534e44837b1bf!2sKirti%20Nagar%2C%20Delhi!5e0!3m2!1sen!2sin!4v1745056433107!5m2!1sen!2sin">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28011.80940513879!2d77.12064333312232!3d28.64545765523457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0304934fb67d%3A0x232534e44837b1bf!2sKirti%20Nagar%2C%20Delhi!5e0!3m2!1sen!2sin!4v1745056433107!5m2!1sen!2sin"
           width="100%"
@@ -17,6 +19,7 @@ const AddressSection = () => {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
+        </Link>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-10 px-4 md:px-16 bg-gray-50 text-gray-800">
@@ -69,7 +72,7 @@ const AddressSection = () => {
         </p>
       </div>
 
-      <div className="bg-primary-floral p-6 sm:p-10 rounded-md mt-8">
+      <div className="bg-primary-floral md:p-6 p-4 sm:p-10 rounded-md mt-8">
         <form className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <input
             type="text"

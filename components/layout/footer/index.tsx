@@ -79,12 +79,10 @@ const Footer: React.FC = () => {
            <br/>
           </div>
         </div>
-        <ul className="space-y-2 text-sm">
+
+      <div className='grid grid-cols-2 col-span-2'>
+      <ul className="space-y-2 text-sm">
         <h4 className="text-lg font-semibold mb-4">Other Pages</h4>
-        <li className="flex items-center gap-2 hover:text-primary-accent transition">
-          <FiChevronRight className="text-primary-accent" />
-          <Link href="/">Home</Link>
-        </li>
         <li className="flex items-center gap-2 hover:text-primary-accent transition">
           <FiChevronRight className="text-primary-accent" />
           <Link href="/about">About Us</Link>
@@ -92,6 +90,14 @@ const Footer: React.FC = () => {
         <li className="flex items-center gap-2 hover:text-primary-accent transition">
           <FiChevronRight className="text-primary-accent" />
           <Link href="/services">Services</Link>
+        </li>
+        <li className="flex items-center gap-2 hover:text-primary-accent transition">
+          <FiChevronRight className="text-primary-accent" />
+          <Link href="/team">Team</Link>
+        </li>
+        <li className="flex items-center gap-2 hover:text-primary-accent transition">
+          <FiChevronRight className="text-primary-accent" />
+          <Link href="/blogs">Blogs</Link>
         </li>
         <li className="flex items-center gap-2 hover:text-primary-accent transition">
           <FiChevronRight className="text-primary-accent" />
@@ -119,6 +125,7 @@ const Footer: React.FC = () => {
             <Link href="/faq">FAQ</Link>
           </li>
         </ul>
+      </div>
       </div>
 
         {/* Contact */}

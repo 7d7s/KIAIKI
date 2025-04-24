@@ -1,7 +1,6 @@
 import DynamicBanner from '@/components/common/banner'
 import ConsultationSection from '@/components/layout/contact/consultationSection'
 import Faq from '@/components/layout/faq'
-import NewSection from '@/components/layout/news'
 import React from 'react'
 
 const Page: React.FC = () => {
@@ -17,7 +16,6 @@ const Page: React.FC = () => {
 />
       <Faq/>
       <ConsultationSection/>
-      <NewSection/>
     </>
   )
 }

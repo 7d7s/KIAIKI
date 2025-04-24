@@ -4,6 +4,7 @@ import Button from "@/components/common/button";
 import Link from "next/link";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoTimeOutline } from "react-icons/io5";
+import { MdArrowOutward } from "react-icons/md";
 
 type Blog = {
   image: string;
@@ -62,7 +63,7 @@ const BlogSection: FC = () => {
                   className="rounded-md w-full h-full object-cover"
                 />
               </div>
-              <div className="flex flex-col text-black">
+              <div className="flex flex-col text-black justify-around">
                 <p className="text-xs font-semibold uppercase text-primary-accent tracking-wide">
                   {blog.category}
                 </p>
@@ -73,7 +74,7 @@ const BlogSection: FC = () => {
              {blog.description}
                 </p>
                 <Link href="#" className="mt-3 text-sm text-primary-accent font-medium inline-flex items-center">
-                  Read More <span className="ml-1">&rarr;</span>
+                  Read More <span className="ml-1"> <MdArrowOutward/></span>
                 </Link>
               </div>
             </div>
@@ -81,9 +82,9 @@ const BlogSection: FC = () => {
         </div>
 
         {/* Sidebar */}
-        <aside className="space-y-10 relative text-black">
+        <aside className="pb-10 relative text-black">
           <div className="sticky top-10">
-<div className="p-5 rounded-md my-5">
+<div className="px-5 rounded-md ">
 <h4 className="text-xl font-semibold mb-4">Recent Post</h4>
             <ul className="space-y-4 text-gray-700">
               {blogs.map((blog, i) => (
