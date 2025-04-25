@@ -49,6 +49,7 @@ export default function NavigationBar() {
   const navItems: NavItem[] = [
     { name: "Home", href: "/" },
     { name: "About Us", href: "/about" },
+    { name: "Services", href: "/services" },
     { 
       name: "Projects",
       href: "/projects",
@@ -63,7 +64,6 @@ export default function NavigationBar() {
       subItems: [
         { name: "Our Team", href: "/team" },
         { name: "FAQ", href: "/faq" },
-        { name: "Services", href: "/services" },
       ]
     },
     { name: "Contact", href: "/contact" },
@@ -83,7 +83,7 @@ const isHomePage = pathnameI === "/";
           <div className="flex items-center">
             <Link href="/">
             <Image 
-              src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1745218924/l_e1wqw3.png"
+              src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1745564637/kiakia1_v8lgfy.png"
               alt="logo" 
               width={1000} 
               height={1000}
@@ -291,8 +291,8 @@ const isHomePage = pathnameI === "/";
                       className="font-serif text-lg font-medium text-black"
                     >
                        <Image 
-              src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1745218924/l_e1wqw3.png"
-              alt="d" 
+              src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1745564637/kiakia1_v8lgfy.png"
+              alt="Logo" 
               width={1000} 
               height={1000}
               className="w-12"

@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
         <div className='flex flex-col lg:col-span-1 md:col-span-2 justify-around lg:order-1 order-2'>
           <div className='lg:text-start text-center'>
           <div className="flex items-center lg:justify-start justify-center gap-2 mb-4">
-            <Image src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1745218924/l_e1wqw3.png" width={1000} height={1000} alt="Interse Logo" className="max-h-36 w-auto" />
+            <Image src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1745564637/kiakia1_v8lgfy.png" width={1000} height={1000} alt="Interse Logo" className="max-h-36 w-auto" />
           </div>
           <p className="lg:text-start text-center md:w-4/5 lg:mx-0 mx-auto w-full">
             Interse is your trusted source for smart living and stylish design inspiration. We craft
