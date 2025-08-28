@@ -1,32 +1,30 @@
-import Hero from "@/components/layout/header/hero";
-import TrustedPartners from "@/components/common/trustedPartners";
-import AwardCard from "@/components/common/cards/awardCard";
-import About from "@/components/layout/about";
-import WhyChooseUsSection from "@/components/layout/whychooseus";
-import Services from "@/components/layout/service";
-import ProcessSection from "@/components/layout/process";
-import Contact from "@/components/layout/contact";
-import Testimonials from "@/components/layout/testimonial";
-import ConsultationSection from "@/components/layout/contact/consultationSection";
-import NewSection from "@/components/layout/news";
-import ProjectSection from "@/components/layout/project/project-details";
+import Hero from "@/components/home/hero";
+import Showcase from "@/components/home/showcase";
+import TrustedPartners from "@/components/home/trustedPartners";
+import About from "@/components/home/about";
+import WhyChooseUs from "@/components/home/whychooseus";
+import Services from "@/components/home/service";
+import Project from "@/components/home/projects";
+import Contact from "@/components/home/contact";
+import Testimonials from "@/components/home/testimonial";
+import OurProcess from "@/components/home/process";
+import LatestNews from "@/components/home/latestNews";
 
 
 function Home() {
   return (
     <div className="">
       <Hero />
-      <AwardCard/>
+      <Showcase/>
       <TrustedPartners/>
       <About/>
-      <WhyChooseUsSection/>
+      <WhyChooseUs/>
       <Services/>
-      <ProjectSection/>
-      <ProcessSection/>
+      <Project/>
+      <OurProcess/>
       <Contact/>
       <Testimonials/>
-      <ConsultationSection/>
-      <NewSection/>
+      <LatestNews/>
     </div>
   );
 }

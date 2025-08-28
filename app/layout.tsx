@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter ,Raleway} from "next/font/google";
 import "./globals.css";
-import Footer from "@/components/layout/footer";
-import NavigationBar from "@/components/layout/header";
+import Footer from "@/components/footer";
+import NavigationBar from "@/components/header";
 
 const inter = Inter({
   variable: "--font-inter",
