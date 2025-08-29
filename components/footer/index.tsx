@@ -86,7 +86,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center gap-2 hover:text-primary-accent transition">
                 <FiChevronRight className="text-primary-accent" />
-                <Link href="/about">About Us</Link>
+                <Link href="/about-us">About Us</Link>
               </li>
               <li className="flex items-center gap-2 hover:text-primary-accent transition">
                 <FiChevronRight className="text-primary-accent" />
