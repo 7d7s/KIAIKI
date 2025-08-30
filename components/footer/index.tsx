@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
               </div>
             </div>
             <div className="lg:text-start text-center mt-5">
-              &copy; {new Date().getFullYear()} Kiakia. All rights reserved.
+              &copy; {new Date().getFullYear()} KIAIKI. All rights reserved.
             </div>
           </div>
 

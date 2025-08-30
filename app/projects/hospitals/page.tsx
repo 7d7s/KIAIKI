@@ -1,27 +1,39 @@
-import { FaCouch, FaPalette, FaLightbulb } from "react-icons/fa";
-import ProjectInfo from "@/components/common/cards/projectCard";
+
 import Image from "next/image";
 import React from "react";
 import { HiOutlineCheck } from "react-icons/hi";
 import ConsultationCTA from "@/components/common/consultationCTA";
 import DynamicBanner from "@/components/common/banner";
-const solutions = [
+import ProjectNavigator from "@/components/common/cards/ProjectNavigator";
+
+const features = [
     {
-        icon: <FaCouch className="text-4xl mb-4" />,
-        title: "Space Planning",
-        description: "Smart layouts and optimal furniture placement for maximum comfort and flow.",
+      title: "Open & Airy Layouts",
+      description:
+        "Maximizing natural light and circulation to create calm, welcoming spaces for patients and staff.",
     },
     {
-        icon: <FaPalette className="text-4xl mb-4" />,
-        title: "Color Consulting",
-        description: "Expert guidance in selecting the perfect hues to reflect your style and mood.",
+      title: "Custom Furniture & Functional Zones",
+      description:
+        "Ergonomic, patient-friendly furniture and optimized layouts tailored to medical workflows and comfort.",
     },
     {
-        icon: <FaLightbulb className="text-4xl mb-4" />,
-        title: "Lighting Design",
-        description: "Layered lighting plans to enhance ambience and bring spaces to life.",
+      title: "Soothing Color Palettes",
+      description:
+        "Calming tones that reduce stress and promote well-being, while maintaining a professional, modern aesthetic.",
     },
-];
+    {
+      title: "Intelligent Lighting Design",
+      description:
+        "Ambient, task, and accent lighting for every area from patient rooms to consultation zones, ensuring comfort and efficiency.",
+    },
+    {
+      title: "Decor & Material Selection",
+      description:
+        "Carefully chosen textures, finishes, and elements that enhance hygiene, safety, and aesthetic appeal without compromising functionality.",
+    },
+  ];
+  
 const Hospitals = () => {
     return (
         <>
@@ -49,71 +61,33 @@ const Hospitals = () => {
                             <div className="md:mt-10 mt-5">
                                 <div className="max-w-4xl mx-auto">
                                     <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center">
-                                        Living Room Design
+                                        Hospital Design
                                     </h2>
 
                                     <p className="text-lg mb-6">
-                                        <strong>Transform your space into a luxurious comfort zone.</strong><br />
-                                        At Kaikai, we believe the living room is the soul of your home — where style meets comfort,
-                                        and conversations flow effortlessly. Our living room designs blend
-                                        <span className="font-semibold"> elegance </span>, <span className="font-semibold">functionality</span>, and
-                                        <span className="font-semibold"> warmth</span> to create a space that truly feels like
-                                        <em>you.</em>
-                                    </p>
+                                    At strong <strong>KIAIKI</strong>KIAIKI, we believe that hospitals and clinics are more than functional spaces - they are places of healing, comfort, and reassurance. Our designs combine modern elegance, functionality, and warmth, creating interiors that make patients, visitors, and staff feel cared for from the moment they step in.</p>
 
                                     <h3 className="text-xl font-semibold text-primary-accent mb-4">What We Focus On:</h3>
-                                    <ul className="space-y-2 mb-8">
-                                        <li className="flex items-center"><HiOutlineCheck size={22} className="text-primary-accent" /> &nbsp; <strong>Open & Airy Layouts:</strong> Making your room feel bigger and brighter</li>
-                                        <li className="flex items-center"><HiOutlineCheck size={22} className="text-primary-accent" /> &nbsp; <strong>Custom Furniture Arrangement:</strong> Tailored to your lifestyle and space</li>
-                                        <li className="flex items-center"><HiOutlineCheck size={22} className="text-primary-accent" /> &nbsp; <strong>Perfect Color Palette:</strong> Soothing tones that inspire calm and connection</li>
-                                        <li className="flex items-center"><HiOutlineCheck size={22} className="text-primary-accent" /> &nbsp; <strong>Smart Lighting:</strong> Ambient, task, and accent lighting for every mood</li>
-                                        <li className="flex items-center"><HiOutlineCheck size={22} className="text-primary-accent" /> &nbsp; <strong>Decor & Texture Play:</strong> Wall art, rugs, and plants for a magazine-worthy finish</li>
+                                    <ul className="space-y-4 mb-8">
+                                        {features.map((feature, index) => (
+                                            <li key={index} className="flex items-start">
+                                                <HiOutlineCheck size={22} className="text-primary-accent mt-1" />
+                                                <div className="ml-2">
+                                                    <strong>{feature.title}:</strong> {feature.description}
+                                                </div>
+                                            </li>
+                                        ))}
                                     </ul>
 
                                     <blockquote className="text-primary-accent italic border-l-4 border-primary-accent  pl-4 text-lg">
-                                        “Because your living room deserves to be more than just a room — it should be an experience.”
+                                        “Because healthcare spaces should do more than serve a function - they should inspire confidence and healing.”
                                     </blockquote>
-
-                                    <div className="grid md:grid-cols-2 gap-8 md:my-10 mt-5">
-                                        <Image src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1744614056/about11_utg1pm.avif"
-                                            alt="logo" width={1000} height={1000} className="object-cover"
-                                        />
-                                        <Image src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1744883436/Interior3_iyclnw.avif"
-                                            alt="logo" width={1000} height={1000} className="object-cover"
-                                        />
-                                    </div>
-                                    <div>
-                                        <h2 className="text-2xl md:text-2xl font-bold mb-4 text-black">Our Solutions</h2>
-                                        <p className="text-lg mb-10">
-                                            We offer innovative and tailored interior design solutions that bring your dream spaces to life.
-                                            From concept to execution, our team ensures functionality meets elegance in every detail.
-                                        </p>
-
-                                        <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-3">
-                                            {solutions.map((item, index) => (
-                                                <div
-                                                    key={index}
-                                                    className="border-primary-accent border p-6 hover:shadow-lg transition duration-300"
-                                                >
-                                                    <div className="text-primary-accent">{item.icon}</div>
-                                                    <h3 className="text-xl font-semibold text-gray-800 mb-2">{item.title}</h3>
-                                                    <p className="">{item.description}</p>
-                                                </div>
-                                            ))}
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div className="md:pr-10">
                             <div className="sticky top-10 px-5">
-                                <ProjectInfo
-                                    client="Amit Kumar"
-                                    date="March 18, 2024"
-                                    category="Living Room"
-                                    location="Delhi, Kirti Nagar"
-                                />
-
+                                <ProjectNavigator />
                             </div>
                         </div>
                     </div>
