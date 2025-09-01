@@ -3,6 +3,7 @@ import { Inter ,Raleway} from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer";
 import NavigationBar from "@/components/header";
+import PreloaderWrapper from "@/components/common/PreloaderWrapper";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${raleway.variable}antialiased`}
       >
+        <PreloaderWrapper />
         <NavigationBar/>
         {children}
         <Footer />
