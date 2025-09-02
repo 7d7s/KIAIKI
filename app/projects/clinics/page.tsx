@@ -37,7 +37,7 @@ const Clinics = () => {
     return (
         <>
             <DynamicBanner
-                imageUrl="https://res.cloudinary.com/ddgbehuxg/image/upload/v1745220874/dea_znhkav.avif"
+                imageUrl="https://res.cloudinary.com/dbldpiazm/image/upload/v1756798297/clinic2_ehfnkt.jpg"
                 altText="About Banner"
                 breadcrumbs={[
                     { label: "Home", href: "/" },
@@ -50,7 +50,7 @@ const Clinics = () => {
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
                         <div className="lg:col-span-2 overflow-hidden">
                             <Image
-                                src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1744884104/Living_Room_nivbla.avif"
+                                src="https://res.cloudinary.com/dbldpiazm/image/upload/v1756798296/clinic1_moxcfu.jpg"
                                 alt="logo"
                                 width={1000}
                                 height={1000}
