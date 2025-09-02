@@ -28,52 +28,63 @@ const About: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="lg:px-8" >
-                    <p className="uppercase text-sm tracking-widest text-primary-accent font-semibold" data-aos="fade-up">
+                <div className="lg:px-8 space-y-6">
+                    <p
+                        className="uppercase text-sm tracking-widest text-primary-accent font-semibold"
+                        data-aos="fade-up"
+                    >
                         About Interse
                     </p>
-                    <h2 className="text-3xl md:text-4xl font-medium text-gray-900 my-5" data-aos="fade-up" data-aos-delay="300">
-                        We Have 25 Years Of <br />
-                        <span className="text-black pl-2 bg-transparent bg-[linear-gradient(270deg,transparent_54%,#EBD1AE_53%)]" > Experience</span> In Interior Design
+
+                    <h2
+                        className="text-3xl md:text-4xl font-medium text-gray-900 leading-snug"
+                        data-aos="fade-up"
+                        data-aos-delay="300"
+                    >
+                        We Have{" "}
+                        <span className="bg-[linear-gradient(270deg,transparent_54%,#EBD1AE_53%)] pl-1">
+                            8 Years
+                        </span>{" "}
+                        Of Experience <br /> In Interior Design
                     </h2>
-                    <p className="text-gray-500 mb-6" data-aos="fade-up" data-aos-delay="500">
-                        We transform spaces into stunning interiors that blend style, comfort, and timeless elegance beautifully.
+
+                    <p
+                        className="text-gray-600 leading-relaxed"
+                        data-aos="fade-up"
+                        data-aos-delay="500"
+                    >
+                        We transform spaces into stunning interiors that blend style,
+                        comfort, and timeless elegance beautifully. Our team ensures every
+                        detail enhances both functionality and aesthetics.
                     </p>
 
+                    {/* Features */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-7">
-                        <div className="" data-aos="fade-up" data-aos-delay="700">
-                            <div className="mb-2">
-                                <IoLayersOutline className="text-primary-accent text-5xl mb-5" />
-                                <h4 className="font-semibold text-lg text-gray-800">Modern Design</h4>
-                            </div>
-                            <p className="text-sm text-gray-600">Innovative concepts meet simplicity to create beautiful, functional living spaces.</p>
+                        <div data-aos="fade-up" data-aos-delay="700">
+                            <IoLayersOutline className="text-primary-accent text-5xl mb-4" />
+                            <h4 className="font-semibold text-lg text-gray-800 mb-2">
+                                Modern Design
+                            </h4>
+                            <p className="text-sm text-gray-600">
+                                Innovative concepts meet simplicity to create beautiful,
+                                functional living spaces.
+                            </p>
                         </div>
-                        <div className="" data-aos="fade-up" data-aos-delay="900">
-                            <div className="mb-2">
-                                <FaHandHoldingUsd className="text-primary-accent text-5xl mb-5" />
-                                <h4 className="font-semibold text-lg text-gray-800">Affordable Price</h4>
-                            </div>
-                            <p className="text-sm text-gray-600">Budget-friendly packages crafted to make design dreams come true.</p>
+                        <div data-aos="fade-up" data-aos-delay="900">
+                            <FaHandHoldingUsd className="text-primary-accent text-5xl mb-4" />
+                            <h4 className="font-semibold text-lg text-gray-800 mb-2">
+                                Affordable Price
+                            </h4>
+                            <p className="text-sm text-gray-600">
+                                Budget-friendly packages crafted to make design dreams come
+                                true.
+                            </p>
                         </div>
                     </div>
 
-                    <div className="flex border-t pt-9 flex-row md:items-center justify-between gap-4" data-aos="fade-up" data-aos-delay="1000">
-                        <div className="flex items-center gap-3">
-                            <Image width={1000} height={1000}
-                                src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1744613361/avatar_nk7omm.jpg"
-                                alt="Felix Bailey"
-                                className="w-16 h-16 rounded-full object-cover"
-                            />
-                            <div>
-                                <p className="font-semibold text-gray-800">Amit Kumar</p>
-                                <p className="text-sm text-gray-500">CEO Interse</p>
-                            </div>
-                        </div>
-                        <Button
-                            label="About"
-                            href="/about"
-                        />
-
+                    {/* CTA Button */}
+                    <div data-aos="fade-up" data-aos-delay="1100">
+                        <Button label="Discover More" href="/about-us" className="bg-primary-accent hover:bg-black text-white"/>
                     </div>
                 </div>
             </div>

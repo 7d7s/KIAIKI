@@ -47,16 +47,16 @@ function Hero() {
                 <div className='grid lg:grid-cols-2 gap-6'>
                     <div className='flex flex-col lg:items-start items-center justify-center lg:mx-0 md:mx-auto lg:max-w-lg' data-aos="fade-up">
                         <h1 className="text-3xl sm:text-5xl font-semibold md:text-6xl text-gray-900 mb-6 lg:text-start text-center">
-                            Create And Customize Your Dream <span className="text-black bg-transparent bg-[linear-gradient(270deg,transparent_54%,#EBD1AE_53%)]">Interior</span>
+                            Create & Curate Your Dream <span className="text-black bg-transparent bg-[linear-gradient(270deg,transparent_54%,#EBD1AE_53%)]">Interior</span>
                         </h1>
                         <p className="text-base text-gray-500 md:mb-10 md:max-w-lg">
-                            We {"don't"} just design rooms, we craft experiences - where every corner speaks your uniqueness, every texture converses with your mood. Not luxury, but your distinctive style. Because home is where you feel most authentically {"'you'"}.
+                            We {"don't"} just design spaces - we shape experiences. Every corner is thoughtfully composed to echo your individuality, every texture carefully chosen to harmonize with your mood. This isn’t about conventional luxury; it’s about crafting a home that reflects your signature style. Because true comfort lies in a space that feels unmistakably, authentically {"'you'"}.
                         </p>
                         <div className="flex items-center">
                             <div className="group">
                                 <Button
-                                    label="Portfolio"
-                                    href="/portfolio"
+                                    label="Explore Our Services"
+                                    href="/services"
                                     className="bg-primary-accent hover:bg-black text-white"
                                 />
                             </div>
