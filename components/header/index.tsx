@@ -50,7 +50,6 @@ export default function NavigationBar() {
   const navItems: NavItem[] = [
     { name: "Home", href: "/" },
     { name: "About", href: "/about-us" },
-    { name: "Services", href: "/services" },
     {
       name: "Projects", href: "#",
       subItems:
@@ -60,6 +59,7 @@ export default function NavigationBar() {
         { name: "Home Interiors", href: "/projects/home-interiors" },
         ]
     },
+    { name: "Gallery", href: "/gallery" },
     { name: "Blogs", href: "/blogs" },
     { name: "Contact", href: "/contact" },
   ];

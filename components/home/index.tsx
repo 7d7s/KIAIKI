@@ -3,7 +3,6 @@ import Showcase from "@/components/home/showcase";
 import TrustedPartners from "@/components/home/trustedPartners";
 import About from "@/components/home/about";
 import WhyChooseUs from "@/components/home/whychooseus";
-import Services from "@/components/home/service";
 import Project from "@/components/home/projects";
 import Contact from "@/components/home/contact";
 import Testimonials from "@/components/home/testimonial";
@@ -19,7 +18,6 @@ function Home() {
       <TrustedPartners/>
       <About/>
       <WhyChooseUs/>
-      <Services/>
       <Project/>
       <OurProcess/>
       <Contact/>

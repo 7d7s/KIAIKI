@@ -10,7 +10,7 @@ const About: React.FC = () => {
             <div className="container px-4 lg:px-16 py-12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
                 <div className="grid md:grid-cols-2 gap-6" data-aos="fade-up">
                     <Image
-                        src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1745326051/m_t5f9q4.png"
+                        src="https://res.cloudinary.com/dbldpiazm/image/upload/v1756798297/clinic2_ehfnkt.jpg"
                         alt="Designer" width={1000} height={1000}
                         className="w-full h-full object-cover"
                     />

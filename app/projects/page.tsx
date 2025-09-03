@@ -4,9 +4,11 @@ import DynamicBanner from '@/components/common/banner'
 import Process from '@/components/home/process'
 import WhyChooseUs from '@/components/home/whychooseus'
 import React from 'react'
-import Gallery from '@/components/common/cards/galleryCard'
 import ConsultationCTA from '@/components/common/consultationCTA'
-const Projects= () => {
+import Image from 'next/image'
+import { FaClinicMedical, FaHome } from 'react-icons/fa'
+import { MdOutlineLocalHospital, MdOutlineMeetingRoom } from 'react-icons/md'
+const Projects = () => {
   return (
     <>
       <DynamicBanner
@@ -17,31 +19,108 @@ const Projects= () => {
           { label: "Project ", href: "/project" }
         ]} title="Our Project"
       />
-      <section className=" bg-white text-black">
-        <div className="container mx-auto px-4 lg:px-16 md:py-20 py-5">
-          <div className="mt-10 text-center flex items-center justify-center">
-            <div>
-              <p className="text-sm tracking-widest text-primary-accent uppercase">
-                Our Projects
-              </p>
-              <h2 className="text-3xl font-bold mt-5">
-                Check Our
-                <span className="text-black bg-transparent bg-[linear-gradient(270deg,transparent_54%,#EBD1AE_53%)] ms-2">
-                  Latest
-                </span> Projects
-              </h2>
-              <p className="mt-5 text-gray-500 max-w-xl">
-                Peek into our latest design journeys! {"We’ve"} been busy turning blank spaces into wow-worthy corners  and {"here’s"} the proof.
-              </p>
+      <section className='bg-primary-floral text-gray-800 border-b'>
+        <div className='container mx-auto px-4 lg:px-16 py-12'>
+          <div className="grid md:grid-cols-2 gap-10">
+            {/* Left Side */}
+            <div className='md:pr-10' data-aos="fade-up">
+              <div className="sticky top-10">
+                <p className="text-primary-accent uppercase tracking-widest font-medium text-sm mb-2">
+                  Our Projects
+                </p>
+                <h2 className="text-3xl md:text-4xl leading-tight my-4">
+                  We <span className="text-black bg-transparent bg-[linear-gradient(270deg,transparent_54%,#EBD1AE_53%)] ms-2"> Provide </span> Specialized Interior Design Solutions
+                </h2>
+                <p className="text-gray-600 mb-6">
+                  Our expertise extends across healthcare and residential spaces. From clinics and hospitals to chambers and home interiors, we design environments that blend functionality with style, ensuring comfort and efficiency in every detail.
+                </p>
+
+                <div className='relative mt-10'>
+                  <Image
+                    src="https://res.cloudinary.com/dbldpiazm/image/upload/v1756798297/home4_zpgfob.jpg"
+                    alt='Clinics Interior'
+                    width={1000}
+                    height={1000}
+                  />
+                  <div className='absolute bottom-0 left-0 p-5 bg-white'>
+                    <div className='flex items-center justify-between'>
+                      <FaClinicMedical className='text-3xl' />
+                      <div className='ml-3'>
+                        <h6 className='text-xl font-semibold'>Clinics</h6>
+                        <p className='text-gray-600'>Functional, calming, patient-focused spaces.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Side */}
+            <div className='space-y-10'>
+              {/* Hospitals */}
+              <div className='relative' data-aos="fade-up">
+                <Image
+                  src="https://res.cloudinary.com/dbldpiazm/image/upload/v1756798530/hospital1_urosda.jpg"
+                  alt='Hospital Interior'
+                  width={1000}
+                  height={1000}
+                />
+                <div className='absolute bottom-0 left-0 p-5 bg-white'>
+                  <div className='flex items-center justify-between'>
+                    <MdOutlineLocalHospital className='text-4xl' />
+                    <div className='ml-3'>
+                      <h6 className='text-xl font-semibold'>Hospitals</h6>
+                      <p className='text-gray-600'>Safe, efficient, and healing-focused designs.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Chambers */}
+              <div className='relative' data-aos="fade-up">
+                <Image
+                  src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1744613359/Interior3_lsbhol.avif"
+                  alt='Chambers Interior'
+                  width={1000}
+                  height={1000}
+                />
+                <div className='absolute bottom-0 left-0 p-5 bg-white'>
+                  <div className='flex items-center justify-between'>
+                    <MdOutlineMeetingRoom className='text-3xl' />
+                    <div className='ml-3'>
+                      <h6 className='text-xl font-semibold'>Chambers</h6>
+                      <p className='text-gray-600'>Professional, elegant, and efficient workspaces.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Home Interiors */}
+              <div className='relative' data-aos="fade-up">
+                <Image
+                  src="https://res.cloudinary.com/dbldpiazm/image/upload/v1756798297/home2_q6kea8.jpg"
+                  alt='Home Interiors'
+                  width={1000}
+                  height={1000}
+                />
+                <div className='absolute bottom-0 left-0 p-5 bg-white'>
+                  <div className='flex items-center justify-between'>
+                    <FaHome className='text-3xl' />
+                    <div className='ml-3'>
+                      <h6 className='text-xl font-semibold'>Home Interiors</h6>
+                      <p className='text-gray-600'>Personalized spaces that reflect your lifestyle.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <Gallery />
         </div>
       </section>
       <AwardWinning />
       <Process />
       <WhyChooseUs />
-      <ConsultationCTA/>
+      <ConsultationCTA />
     </>
   )
 }

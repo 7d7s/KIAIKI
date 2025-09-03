@@ -4,23 +4,28 @@
 
 import { useState } from 'react';
 import Button from '@/components/common/button'
+import Link from 'next/link';
 
 const sections = [
     {
-        title: 'Living Room',
-        image: 'https://res.cloudinary.com/ddgbehuxg/image/upload/v1745221149/team_qytlx2.avif',
+        title: 'Clinics',
+        image: 'https://res.cloudinary.com/dbldpiazm/image/upload/v1756798297/clinic2_ehfnkt.jpg',
+        href: '/projects/clinics',
     },
     {
-        title: 'Bedroom',
-        image: 'https://res.cloudinary.com/ddgbehuxg/image/upload/v1745220874/details_pgtyvp.avif',
+        title: 'Hospitals',
+        image: 'https://res.cloudinary.com/dbldpiazm/image/upload/v1756798303/hospital_qfq3gd.jpg',
+        href: '/projects/hospitals',
     },
     {
-        title: 'Dining Room',
+        title: 'Chambers',
         image: 'https://res.cloudinary.com/ddgbehuxg/image/upload/v1745220874/dea_znhkav.avif',
+        href: '/projects/chambers',
     },
     {
-        title: 'Hall',
-        image: 'https://res.cloudinary.com/ddgbehuxg/image/upload/v1745220686/contactbanner_l1h4u4.avif',
+        title: 'Home Interiors',
+        image: 'https://res.cloudinary.com/dbldpiazm/image/upload/v1756798297/home3_jqa703.jpg',
+        href: '/projects/home-interiors',
     },
 ];
 
@@ -47,7 +52,7 @@ function Projects() {
                     </div>
                     <div className='md:flex items-center justify-end'>
                         <Button label="All Projects"
-                            href="#"
+                            href="/projects"
                             className="bg-primary-accent hover:bg-black text-white"
                         />
                     </div>
@@ -78,6 +83,9 @@ function Projects() {
                             <div
                                 className="absolute top-0 left-0 right-0 bg-white text-black p-4 transform -translate-y-36 group-hover:translate-y-0 transition-all duration-500 ease-in-out md:h-32 h-24"
                             />
+                            <Link href={section.href}>
+                                <div className="absolute inset-0 bg-black/20 transition duration-300" />
+                            </Link>
                         </div>
                     ))}
                 </div>
