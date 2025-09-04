@@ -55,14 +55,14 @@ function Hero() {
                         <div className="flex items-center">
                             <div className="group">
                                 <Button
-                                    label="Explore Our Services"
-                                    href="/services"
-                                    className="bg-primary-accent hover:bg-black text-white"
+                                    label="Explore Our Projects"
+                                    href="/projects"
+                                    className="bg-primary-accent hover:bg-black text-white text-sm md:text-base"
                                 />
                             </div>
                             <button
                                 onClick={() => setIsOpen(true)}
-                                className="flex relative uppercase items-center gap-2 left-5 py-2 px-2 mt-3 md:mt-0 rounded-md text-primary-accent font-semibold transition-all duration-300"
+                                className="flex relative uppercase items-center gap-2 left-5 py-2 px-2 mt-3 md:mt-0 rounded-md text-primary-accent font-semibold transition-all duration-300 shrink-0"
                             >
                                 {/* Pulse Effect */}
                                 <div className="absolute md:left-6 md:w-8 md:h-8 w-5 h-5 left-[18px] rounded-full opacity-100 animate-pulseCustom" />

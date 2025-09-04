@@ -19,7 +19,7 @@ const sections = [
     },
     {
         title: 'Chambers',
-        image: 'https://res.cloudinary.com/ddgbehuxg/image/upload/v1745220874/dea_znhkav.avif',
+        image: 'https://res.cloudinary.com/dbldpiazm/image/upload/v1756970348/chamber_cdwkfa.jpg',
         href: '/projects/chambers',
     },
     {

@@ -1,6 +1,5 @@
 import Hero from "@/components/home/hero";
 import Showcase from "@/components/home/showcase";
-import TrustedPartners from "@/components/home/trustedPartners";
 import About from "@/components/home/about";
 import WhyChooseUs from "@/components/home/whychooseus";
 import Project from "@/components/home/projects";
@@ -15,7 +14,6 @@ function Home() {
     <div className="">
       <Hero />
       <Showcase/>
-      <TrustedPartners/>
       <About/>
       <WhyChooseUs/>
       <Project/>
