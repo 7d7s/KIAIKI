@@ -5,7 +5,6 @@ import { FaEye } from "react-icons/fa";
 import { GiBullseye } from "react-icons/gi";
 import AwardWinning from '@/components/common/AwardWin'
 import DynamicBanner from '@/components/common/banner'
-import Team from '@/components/common/team'
 import React from 'react'
 import LatestNews from '@/components/home/latestNews'
 import ConsultationCTA from '@/components/common/consultationCTA'
@@ -120,7 +119,7 @@ function page() {
       </div>
 
       <AwardWinning />
-      <Team />
+      {/* <Team /> */}
       <LatestNews />
       <ConsultationCTA />
     </div>

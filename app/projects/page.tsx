@@ -79,7 +79,7 @@ const Projects = () => {
               {/* Chambers */}
               <div className='relative' data-aos="fade-up">
                 <Image
-                  src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1744613359/Interior3_lsbhol.avif"
+                  src="https://res.cloudinary.com/dbldpiazm/image/upload/v1756970348/chamber_cdwkfa.jpg"
                   alt='Chambers Interior'
                   width={1000}
                   height={1000}
