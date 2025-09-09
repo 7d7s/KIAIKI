@@ -5,6 +5,7 @@ import Button from "@/components/common/button";
 import Link from "next/link";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoTimeOutline } from "react-icons/io5";
+import { MdArrowOutward } from 'react-icons/md';
 
 type Blog = {
   image: string;
@@ -83,8 +84,8 @@ const Blog: React.FC = () => {
                   <p className="text-base mt-2 text-gray-500">
                     {blog.description}
                   </p>
-                  <Link href="#" className="mt-3 text-sm text-primary-accent font-medium inline-flex items-center">
-                    Read More <span className="ml-1">&rarr;</span>
+                  <Link href="#" className="mt-auto text-sm text-primary-accent font-medium inline-flex items-center">
+                    Read More <MdArrowOutward size={16} />
                   </Link>
                 </div>
               </div>
