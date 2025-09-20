@@ -116,18 +116,19 @@ const Blog: React.FC = () => {
                   Our experienced team is here to guide you every step of the way. Schedule your free consultation today and{" let's"} bring your vision to life  smartly, smoothly, and successfully.
                 </p>
                 <Button
-                  href="#"
+                  href="/contact"
                   label="Contact Us"
                   className="bg-primary-accent text-sm hover:bg-black hover:text-white mb-3 text-white"
                 />
               </div>
 
               <div className="p-5">
-                <h4 className="text-xl font-semibold mb-4">Categories</h4>
+                <h4 className="text-xl font-semibold mb-4">Our Projects</h4>
                 <ul className="space-y-2 text-sm text-gray-700">
-                  <li className="flex items-center justify-start"><IoIosArrowForward /> &nbsp; <a href="#" className="hover:text-primary-accent">Insight</a></li>
-                  <li className="flex items-center justify-start"><IoIosArrowForward /> &nbsp; <a href="#" className="hover:text-primary-accent">Furniture</a></li>
-                  <li className="flex items-center justify-start"><IoIosArrowForward /> &nbsp; <a href="#" className="hover:text-primary-accent">Interior</a></li>
+                  <li className="flex items-center justify-start"><IoIosArrowForward /> &nbsp; <a href="/projects/clinics" className="hover:text-primary-accent">Clinics</a></li>
+                  <li className="flex items-center justify-start"><IoIosArrowForward /> &nbsp; <a href="/projects/hospitals" className="hover:text-primary-accent">Hospitals</a></li>
+                  <li className="flex items-center justify-start"><IoIosArrowForward /> &nbsp; <a href="/projects/chambers" className="hover:text-primary-accent">Chambers</a></li>
+                  <li className="flex items-center justify-start"><IoIosArrowForward /> &nbsp; <a href="/projects/home-interiors" className="hover:text-primary-accent">Home Interiors</a></li>
                 </ul>
               </div>
             </div>

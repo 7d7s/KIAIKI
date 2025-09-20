@@ -85,7 +85,7 @@ function page() {
               </div>
               <div className="text-start">
                 <h4 className="font-semibold text-lg">Phone Number</h4>
-                <p className="text-sm">(+91) 8085-662-987</p>
+                <p className="text-sm">+91 9999036239</p>
               </div>
             </div>
 
@@ -95,7 +95,7 @@ function page() {
               </div>
               <div className="text-start">
                 <h4 className="font-semibold text-lg">Location</h4>
-                <p className="text-sm">Kirti Nagar I - 108 Delhi</p>
+                <p className="text-sm">I-102, Second Floor, Block I, Kirti Nagar, Delhi, 110015</p>
               </div>
             </div>
 
@@ -105,7 +105,7 @@ function page() {
               </div>
               <div className="text-start">
                 <h4 className="font-semibold text-lg">Opening Hours</h4>
-                <p className="text-sm">Everyday, 09:00 - 20:00</p>
+                <p className="text-sm">Everyday, 10:00 - 19:00</p>
               </div>
             </div>
 
@@ -115,7 +115,7 @@ function page() {
               </div>
               <div className="text-start">
                 <h4 className="font-semibold text-lg">Email Us</h4>
-                <p className="text-sm">support@kaikai.com</p>
+                <p className="text-sm">kiaiki@gmail.com</p>
               </div>
             </div>
           </div>

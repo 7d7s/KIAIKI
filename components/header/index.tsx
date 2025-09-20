@@ -78,7 +78,7 @@ export default function NavigationBar() {
           <div className="flex items-center">
             <Link href="/">
               <Image
-                src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1745218924/l_e1wqw3.png"
+                src="https://res.cloudinary.com/dbldpiazm/image/upload/v1758358663/image_v3wwpn.png"
                 alt="logo"
                 width={1000}
                 height={1000}
