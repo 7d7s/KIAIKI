@@ -54,7 +54,7 @@ const Contact: React.FC = () => {
               Reach out to us for customized interior solutions that combine function, comfort, and elegance. Let’s bring your vision to life, one detail at a time.
             </p>
 
-            <div className="md:gap-8 gap-2 text-sm grid md:grid-cols-2">
+            <div className="md:gap-8 gap-2 text-sm grid md:grid-cols-1 max-w-sm">
               <div className="flex items-start gap-3">
                 <FiMapPin className="text-white mt-1 p-3 text-5xl bg-primary-accent w-20 h-12" />
                 <div>
@@ -62,19 +62,12 @@ const Contact: React.FC = () => {
                   <p>I-102, Second Floor, Block I, Kirti Nagar, Delhi, 110015</p>
                 </div>
               </div>
-              <div className="flex items-start gap-3">
-                <FiMapPin className="text-white mt-1 p-3 text-5xl bg-primary-accent w-20 h-12" />
-                <div>
-                  <p><strong>2nd Office Location:</strong></p>
-                  <p>I-102, Ground Floor, Block I, Kirti Nagar, Delhi, 491995</p>
-                </div>
-              </div>
 
               <div className="flex items-start gap-3">
                 <FiPhone className="text-white mt-1 p-3 text-5xl bg-primary-accent w-20 h-12" />
                 <div>
                   <p><strong>Call:</strong></p>
-                  <p> (+91) 834-0346-082 , (+91) 805-8678-682</p>
+                  <p> +91 9999036239</p>
                 </div>
               </div>
 
@@ -82,7 +75,7 @@ const Contact: React.FC = () => {
                 <FiMail className="text-white mt-1 p-3 text-5xl bg-primary-accent w-20 h-12" />
                 <div>
                   <p><strong>Email:</strong></p>
-                  <p> support@kaikai.com, contect@kaikai.com</p>
+                  <p> kiaiki@gmail.com</p>
                 </div>
               </div>
             </div>

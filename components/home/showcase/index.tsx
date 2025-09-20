@@ -106,33 +106,33 @@ const Showcase: React.FC = () => {
                     className="text-center md:text-left lg:px-10 mt-7 space-y-6"
                     data-aos="fade-left"
                 >
-                    {/* Heading + Subheading */}
+                    {/*Subheading */}
                     <div>
-                        <h2 className="text-3xl md:text-4xl font-bold text-[#1a1a1a] mb-3">
+                        <h2 className="text-3xl md:text-4xl font-medium text-gray-900 leading-snug mb-3">
                             Timeless Interiors
                         </h2>
-                        <p className="text-[#5c5c5c] leading-relaxed">
-                            Crafting interiors that balance <span className="font-semibold text-[#2c5c4d]">elegance</span> and{" "}
-                            <span className="font-semibold text-[#2c5c4d]">functionality</span> -
+                        <p className="text-gray-600 leading-relaxed">
+                            Crafting interiors that balance <span className="font-semibold text-primary-accent">elegance</span> and{" "}
+                            <span className="font-semibold text-primary-accent">functionality</span> -
                             designed for modern living, built to last.
                         </p>
                     </div>
 
                     {/* Quote */}
-                    <div className="border-l-4 border-[#2c5c4d] pl-6 text-[#5c5c5c] italic text-sm">
-                        A well-designed space is not defined by trends, but by timeless elegance and
-                        personal expression.
+                    <div className="border-l-4 border-primary-accent pl-6 text-gray-600 italic text-sm">
+                        &quot;A well-designed space is not defined by trends, but by timeless elegance and
+                        personal expression.&quot;
                     </div>
 
                     {/* Stats / Highlights */}
-                    <div className="grid grid-cols-2 gap-6 md:gap-10 mt-6">
+                    <div className="grid grid-cols-2 gap-6 my-7">
                         <div className="text-center md:text-left">
-                            <h3 className="text-3xl font-bold text-[#2c5c4d]">8+</h3>
-                            <p className="text-sm text-[#5c5c5c]">Years of Experience</p>
+                            <h3 className="text-3xl font-semibold text-primary-accent mb-2">8+</h3>
+                            <p className="text-sm text-gray-600">Years of Experience</p>
                         </div>
                         <div className="text-center md:text-left">
-                            <h3 className="text-3xl font-bold text-[#2c5c4d]">10+</h3>
-                            <p className="text-sm text-[#5c5c5c]">Projects Completed</p>
+                            <h3 className="text-3xl font-semibold text-primary-accent mb-2">10+</h3>
+                            <p className="text-sm text-gray-600">Projects Completed</p>
                         </div>
                     </div>
 

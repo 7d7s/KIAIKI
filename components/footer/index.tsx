@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
           <div className='flex flex-col lg:col-span-1 md:col-span-2 justify-around lg:order-1 order-2'>
             <div className='lg:text-start text-center'>
               <div className="flex items-center lg:justify-start justify-center gap-2 mb-4">
-                <Image src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1745218924/l_e1wqw3.png" width={1000} height={1000} alt="Interse Logo" className="max-h-36 w-auto" />
+                <Image src="https://res.cloudinary.com/dbldpiazm/image/upload/v1758358663/image_v3wwpn.png" width={1000} height={1000} alt="Interse Logo" className="max-h-36 w-auto" />
               </div>
               <p className="lg:text-start text-center md:w-4/5 lg:mx-0 mx-auto w-full">
                 Interse is your trusted source for smart living and stylish design inspiration. We craft
@@ -128,10 +128,10 @@ const Footer: React.FC = () => {
                   <p>I-102, Second Floor, Block I, Kirti Nagar, Delhi, 110015</p>
                 </li>
                 <li className="flex items-start gap-2">
-                  <p>contact@kiakia.com</p>
+                  <p>kiaiki@gmail.com</p>
                 </li>
                 <li className="flex items-start gap-2">
-                  <p>  (+91) 8085-662-987</p>
+                  <p>  (+91) 9999036239</p>
                 </li>
               </ul>
             </div>
