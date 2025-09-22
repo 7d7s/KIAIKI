@@ -90,7 +90,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center gap-2 hover:text-primary-accent transition">
                 <FiChevronRight className="text-primary-accent" />
-                <Link href="/services">Services</Link>
+                <Link href="/projects">Projects</Link>
               </li>
               <li className="flex items-center gap-2 hover:text-primary-accent transition">
                 <FiChevronRight className="text-primary-accent" />
@@ -103,15 +103,15 @@ const Footer: React.FC = () => {
               <ul className="space-y-2 text-sm">
                 <li className="flex items-center gap-2 hover:text-primary-accent cursor-pointer transition">
                   <FiChevronRight className="text-primary-accent" />
-                  <Link href="/privacy-policy">Privacy Policy</Link>
+                  <Link href="#">Privacy Policy</Link>
                 </li>
                 <li className="flex items-center gap-2 hover:text-primary-accent cursor-pointer transition">
                   <FiChevronRight className="text-primary-accent" />
-                  <Link href="/terms-of-service">Term Of Service</Link>
+                  <Link href="#">Term Of Service</Link>
                 </li>
                 <li className="flex items-center gap-2 hover:text-primary-accent cursor-pointer transition">
                   <FiChevronRight className="text-primary-accent" />
-                  <Link href="/credits">Credits</Link>
+                  <Link href="/gallery">Gallery</Link>
                 </li>
                 <li className="flex items-center gap-2 hover:text-primary-accent cursor-pointer transition">
                   <FiChevronRight className="text-primary-accent" />
