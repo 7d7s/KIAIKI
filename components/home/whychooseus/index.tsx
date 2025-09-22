@@ -68,7 +68,7 @@ const WhyChooseUs = () => {
               {features.map((feature, index) => (
                 <div
                   key={index}
-                  className="flex items-start gap-4 p-4"
+                  className="flex items-start gap-4 md:p-4"
                 >
                   <div className="bg-primary-accent p-5">
                     {feature.icon}
@@ -93,7 +93,7 @@ const WhyChooseUs = () => {
                         alt={feature.alt}
                         width={1000}
                         height={1000}
-                        className="w-full h-56 object-cover p-3"
+                        className="w-full h-56 object-cover md:p-3"
                       />
                     </div>
                   );
@@ -104,7 +104,7 @@ const WhyChooseUs = () => {
                   return (
                     <div
                       key={index}
-                      className="flex items-start gap-4 p-4"
+                      className="flex items-start gap-4 md:p-4"
                     >
                       <div className="bg-primary-accent p-5">
                         {feature.icon}

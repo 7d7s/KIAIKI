@@ -85,7 +85,7 @@ function page() {
               </div>
               <div className="text-start">
                 <h4 className="font-semibold text-lg">Phone Number</h4>
-                <p className="text-sm">+91 9999036239</p>
+                <p className="text-sm">+91 9220708032</p>
               </div>
             </div>
 
@@ -115,7 +115,7 @@ function page() {
               </div>
               <div className="text-start">
                 <h4 className="font-semibold text-lg">Email Us</h4>
-                <p className="text-sm">kiaiki@gmail.com</p>
+                <p className="text-sm">info@kiaiki.com</p>
               </div>
             </div>
           </div>

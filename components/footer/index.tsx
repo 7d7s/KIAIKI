@@ -128,10 +128,10 @@ const Footer: React.FC = () => {
                   <p>I-102, Second Floor, Block I, Kirti Nagar, Delhi, 110015</p>
                 </li>
                 <li className="flex items-start gap-2">
-                  <p>kiaiki@gmail.com</p>
+                  <p>info@kiaiki.com</p>
                 </li>
                 <li className="flex items-start gap-2">
-                  <p>  (+91) 9999036239</p>
+                  <p> +91 9220708032</p>
                 </li>
               </ul>
             </div>
