@@ -245,8 +245,8 @@ export default function NavigationBar() {
                       className="font-serif text-lg font-medium text-black"
                     >
                       <Image
-                        src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1745218924/l_e1wqw3.png"
-                        alt="d"
+                        src="https://res.cloudinary.com/dbldpiazm/image/upload/v1758358663/image_v3wwpn.png"
+                        alt="logo"
                         width={1000}
                         height={1000}
                         className="w-12"
