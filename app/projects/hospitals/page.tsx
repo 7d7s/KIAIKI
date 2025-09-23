@@ -71,7 +71,7 @@ const Hospitals = () => {
                                     <ul className="space-y-4 mb-8">
                                         {features.map((feature, index) => (
                                             <li key={index} className="flex items-start">
-                                                <HiOutlineCheck size={22} className="text-primary-accent mt-1" />
+                                                <HiOutlineCheck size={22} className="text-primary-accent mt-1 shrink-0" />
                                                 <div className="ml-2">
                                                     <strong>{feature.title}:</strong> {feature.description}
                                                 </div>
@@ -86,7 +86,7 @@ const Hospitals = () => {
                             </div>
                         </div>
                         <div className="md:pr-10">
-                            <div className="sticky top-10 px-5">
+                            <div className="sticky top-10 px-0 md:px-5">
                                 <ProjectNavigator />
                             </div>
                         </div>

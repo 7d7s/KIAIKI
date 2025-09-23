@@ -48,7 +48,7 @@ function page() {
 
       {/* About Section */}
       <div className="bg-white pb-12">
-        <div className="container px-4 lg:px-16 py-24 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+        <div className="container px-4 lg:px-16 py-10 md:py-24 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
 
           {/* Left Image + Quote */}
           <div className="relative">
@@ -59,7 +59,7 @@ function page() {
               height={1000}
               className="w-full max-h-[550px] object-cover rounded-xl shadow"
             />
-            <div className="absolute -bottom-6 -right-6 w-72 p-5 bg-primary-accent rounded-xl shadow-lg text-white">
+            <div className="absolute bottom-0 md:-bottom-6 right-0 md:-right-6 w-72 p-5 bg-primary-accent rounded-xl shadow-lg text-white">
               <div className="relative">
                 <p className="italic leading-relaxed">
                   “At KIAIKI, creativity meets comfort. With over 8+ years of expertise, we craft spaces that are personal in essence, purposeful in design, and timeless in appeal.”</p>

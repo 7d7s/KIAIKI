@@ -15,7 +15,7 @@ function page() {
         ]} title="Contact Us"
       />
       <section className=" bg-white text-black">
-        <div className="container mx-auto px-4 lg:px-16 md:py-20 py-5 text-center">
+        <div className="container mx-auto px-4 md:px-0 md:py-20 py-5 text-center">
           <div className="mb-10">
             <p className="text-sm uppercase text-primary-accent tracking-wide">Contact Us</p>
             <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 my-4">Get In Touch With Interse</h2>
@@ -24,7 +24,7 @@ function page() {
             </p>
           </div>
 
-          <div className="bg-primary-floral p-6 sm:p-10 rounded-md mt-8">
+          <div className="bg-primary-floral p-0 md:p-10 rounded-md mt-8">
             <form className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <input
                 type="text"
