@@ -90,7 +90,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center gap-2 hover:text-primary-accent transition">
                 <FiChevronRight className="text-primary-accent" />
-                <Link href="/services">Services</Link>
+                <Link href="/projects">Projects</Link>
               </li>
               <li className="flex items-center gap-2 hover:text-primary-accent transition">
                 <FiChevronRight className="text-primary-accent" />
@@ -103,15 +103,15 @@ const Footer: React.FC = () => {
               <ul className="space-y-2 text-sm">
                 <li className="flex items-center gap-2 hover:text-primary-accent cursor-pointer transition">
                   <FiChevronRight className="text-primary-accent" />
-                  <Link href="/privacy-policy">Privacy Policy</Link>
+                  <Link href="#">Privacy Policy</Link>
                 </li>
                 <li className="flex items-center gap-2 hover:text-primary-accent cursor-pointer transition">
                   <FiChevronRight className="text-primary-accent" />
-                  <Link href="/terms-of-service">Term Of Service</Link>
+                  <Link href="#">Term Of Service</Link>
                 </li>
                 <li className="flex items-center gap-2 hover:text-primary-accent cursor-pointer transition">
                   <FiChevronRight className="text-primary-accent" />
-                  <Link href="/credits">Credits</Link>
+                  <Link href="/gallery">Gallery</Link>
                 </li>
                 <li className="flex items-center gap-2 hover:text-primary-accent cursor-pointer transition">
                   <FiChevronRight className="text-primary-accent" />
@@ -128,10 +128,10 @@ const Footer: React.FC = () => {
                   <p>I-102, Second Floor, Block I, Kirti Nagar, Delhi, 110015</p>
                 </li>
                 <li className="flex items-start gap-2">
-                  <p>kiaiki@gmail.com</p>
+                  <p>info@kiaiki.com</p>
                 </li>
                 <li className="flex items-start gap-2">
-                  <p>  (+91) 9999036239</p>
+                  <p> +91 9220708032</p>
                 </li>
               </ul>
             </div>

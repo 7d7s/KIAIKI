@@ -42,12 +42,12 @@ const Projects = () => {
                     width={1000}
                     height={1000}
                   />
-                  <div className='absolute bottom-0 left-0 p-5 bg-white'>
+                  <div className='absolute bottom-0 left-0 p-2 md:p-5 bg-white'>
                     <div className='flex items-center justify-between'>
-                      <FaClinicMedical className='text-3xl' />
+                      <FaClinicMedical className='text-3xl shrink-0' />
                       <div className='ml-3'>
-                        <h6 className='text-xl font-semibold'>Clinics</h6>
-                        <p className='text-gray-600'>Functional, calming, patient-focused spaces.</p>
+                        <h6 className='text-base md:text-xl font-semibold'>Clinics</h6>
+                        <p className='text-sm md:text-base text-gray-600'>Functional, calming, patient-focused spaces.</p>
                       </div>
                     </div>
                   </div>
@@ -65,12 +65,12 @@ const Projects = () => {
                   width={1000}
                   height={1000}
                 />
-                <div className='absolute bottom-0 left-0 p-5 bg-white'>
+                <div className='absolute bottom-0 left-0 p-2 md:p-5 bg-white'>
                   <div className='flex items-center justify-between'>
-                    <MdOutlineLocalHospital className='text-4xl' />
+                    <MdOutlineLocalHospital className='text-4xl shrink-0' />
                     <div className='ml-3'>
-                      <h6 className='text-xl font-semibold'>Hospitals</h6>
-                      <p className='text-gray-600'>Safe, efficient, and healing-focused designs.</p>
+                      <h6 className='text-base md:text-xl font-semibold'>Hospitals</h6>
+                      <p className='text-sm md:text-base text-gray-600'>Safe, efficient, and healing-focused designs.</p>
                     </div>
                   </div>
                 </div>
@@ -84,12 +84,12 @@ const Projects = () => {
                   width={1000}
                   height={1000}
                 />
-                <div className='absolute bottom-0 left-0 p-5 bg-white'>
+                <div className='absolute bottom-0 left-0 p-2 md:p-5 bg-white'>
                   <div className='flex items-center justify-between'>
-                    <MdOutlineMeetingRoom className='text-3xl' />
+                    <MdOutlineMeetingRoom className='text-3xl shrink-0' />
                     <div className='ml-3'>
-                      <h6 className='text-xl font-semibold'>Chambers</h6>
-                      <p className='text-gray-600'>Professional, elegant, and efficient workspaces.</p>
+                      <h6 className='text-base md:text-xl font-semibold'>Chambers</h6>
+                      <p className='text-sm md:text-base text-gray-600'>Professional, elegant, and efficient workspaces.</p>
                     </div>
                   </div>
                 </div>
@@ -103,12 +103,12 @@ const Projects = () => {
                   width={1000}
                   height={1000}
                 />
-                <div className='absolute bottom-0 left-0 p-5 bg-white'>
+                <div className='absolute bottom-0 left-0 p-2 md:p-5 bg-white'>
                   <div className='flex items-center justify-between'>
-                    <FaHome className='text-3xl' />
+                    <FaHome className='text-3xl shrink-0' />
                     <div className='ml-3'>
-                      <h6 className='text-xl font-semibold'>Home Interiors</h6>
-                      <p className='text-gray-600'>Personalized spaces that reflect your lifestyle.</p>
+                      <h6 className='text-base md:text-xl font-semibold'>Home Interiors</h6>
+                      <p className='text-sm md:text-base text-gray-600'>Personalized spaces that reflect your lifestyle.</p>
                     </div>
                   </div>
                 </div>

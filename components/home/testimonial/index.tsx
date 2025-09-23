@@ -90,7 +90,7 @@ const Testimonials: React.FC = () => {
           <div className="bg-primary-floral md:p-10 p-5">
             <Slider {...sliderSettings}>
               {testimonials.map((t, idx) => (
-                <div key={idx} className="p-6">
+                <div key={idx} className="md:p-6">
                   <p className="italic text-gray-600 mb-7">{t.feedback}</p>
                   <div className="flex items-center gap-3">
                     <Image src={t.image} alt={t.name} width={1000} height={1000} className="w-16 h-16 rounded-full object-cover" />

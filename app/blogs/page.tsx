@@ -95,7 +95,7 @@ const Blog: React.FC = () => {
           {/* Sidebar */}
           <aside className="space-y-10 relative text-black">
             <div className="sticky top-10">
-              <div className="p-5 rounded-md my-5">
+              <div className="p-0 md:p-5 rounded-md my-5">
                 <h4 className="text-xl font-semibold mb-4">Recent Post</h4>
                 <ul className="space-y-4 text-gray-700">
                   {blogs.map((blog, i) => (
@@ -122,7 +122,7 @@ const Blog: React.FC = () => {
                 />
               </div>
 
-              <div className="p-5">
+              <div className="p-0 md:p-5">
                 <h4 className="text-xl font-semibold mb-4">Our Projects</h4>
                 <ul className="space-y-2 text-sm text-gray-700">
                   <li className="flex items-center justify-start"><IoIosArrowForward /> &nbsp; <a href="/projects/clinics" className="hover:text-primary-accent">Clinics</a></li>

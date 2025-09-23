@@ -42,7 +42,7 @@ const OurProcess: React.FC = () => {
               Our four-step process helps turn your ideas into reality—clear, simple, and stress-free from consultation to execution. We make it easy for you.
             </p>
 
-            <div className="grid grid-cols-2 md:gap-10 gap-5 mt-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-5 mt-12">
               {steps.map((step, index) => (
                 <div
                   key={index}
