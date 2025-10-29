@@ -52,7 +52,7 @@ const Chambers = () => {
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
                         <div className="lg:col-span-2 overflow-hidden">
                             <Image
-                                src="https://res.cloudinary.com/ddgbehuxg/image/upload/v1744884104/Living_Room_nivbla.avif"
+                                src="https://res.cloudinary.com/dbldpiazm/image/upload/v1761733396/Chambers03_vfz2jz.jpg"
                                 alt="logo"
                                 width={1000}
                                 height={1000}

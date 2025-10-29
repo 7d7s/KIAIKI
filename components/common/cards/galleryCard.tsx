@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const categories = ['All', 'Clinics', 'Hospitals', 'Home Interiors'];
+const categories = ['All', 'Clinics', 'Hospitals', 'Home Interiors' , 'Chambers'];
 
 const images = [
 
@@ -16,6 +16,12 @@ const images = [
   { src: 'https://res.cloudinary.com/ddgbehuxg/image/upload/v1744884656/Bathroom_xitjbz.jpg', category: 'Clinics', room: 'Hospitals' },
   { src: 'https://res.cloudinary.com/ddgbehuxg/image/upload/v1744883436/Interior1_snzcrm.avif', category: 'Home Interiors', room: 'Home Interiors' },
   { src: 'https://res.cloudinary.com/ddgbehuxg/image/upload/v1744884925/Bathroom3_s0flmh.avif', category: 'Home Interiors', room: 'Home Interiors' },
+  { src: 'https://res.cloudinary.com/dbldpiazm/image/upload/v1761733396/Chambers03_vfz2jz.jpg', category: 'Chambers', room: 'Chambers' }, 
+  { src: 'https://res.cloudinary.com/dbldpiazm/image/upload/v1761733396/Chambers04_jxya6c.jpg', category: 'Chambers', room: 'Chambers' }, 
+  { src: 'https://res.cloudinary.com/dbldpiazm/image/upload/v1761734328/Chambers05_vhzlff.jpg', category: 'Chambers', room: 'Chambers' }, 
+  { src: 'https://res.cloudinary.com/dbldpiazm/image/upload/v1761733396/Chambers01_fow0xr.jpg', category: 'Chambers', room: 'Chambers' }, 
+  { src: 'https://res.cloudinary.com/dbldpiazm/image/upload/v1761733396/Chambers02_y4vgb0.jpg', category: 'Chambers', room: 'Chambers' }, 
+  { src: 'https://res.cloudinary.com/dbldpiazm/image/upload/v1761734328/Chambers06_l6q2wj.jpg', category: 'Chambers', room: 'Chambers' }, 
 ];
 
 export default function Gallery() {
