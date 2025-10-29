@@ -61,8 +61,8 @@ const Faq: React.FC = () => {
   };
 
   return (
-    <section className="pb-5 px-4 bg-white text-black">
-      <div className="container mx-auto px-4 lg:px-16 py-12 grid lg:grid-cols-2 gap-8">
+    <section className="pb-5 bg-white text-black">
+      <div className="container mx-auto px-4 md:px-8 py-12 grid lg:grid-cols-2 gap-8">
         <div className="space-y-8" data-aos="fade-up">
           <div>
             <p className="text-sm tracking-widest text-primary-accent uppercase">FAQ</p>

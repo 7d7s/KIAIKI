@@ -48,7 +48,7 @@ function page() {
 
       {/* About Section */}
       <div className="bg-white pb-12">
-        <div className="container px-4 lg:px-16 py-10 md:py-24 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+        <div className="container px-4 md:px-8 py-10 md:py-24 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
 
           {/* Left Image + Quote */}
           <div className="relative">

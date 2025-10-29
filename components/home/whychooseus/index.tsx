@@ -46,7 +46,7 @@ const feature = [
 const WhyChooseUs = () => {
   return (
     <section className="bg-black text-white ">
-      <div className="container mx-auto grid md:grid-cols-3 gap-5 relative px-4 lg:px-16 py-12">
+      <div className="container mx-auto grid md:grid-cols-3 gap-5 relative px-4 md:px-8 py-12">
         <div className="relative lg:col-span-1 col-span-3" data-aos="fade-up">
           <div className="sticky top-10">
             <p className="text-primary-givry uppercase tracking-widest font-medium text-sm mb-2">

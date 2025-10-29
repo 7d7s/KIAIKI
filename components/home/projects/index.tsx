@@ -34,7 +34,7 @@ function Projects() {
 
     return (
         <section className=" bg-white text-black pt-16">
-            <div className="container mx-auto px-4 lg:px-16 pb-16">
+            <div className="container mx-auto px-4 md:px-8 pb-16">
                 <div className="grid md:grid-cols-2">
                     <div>
                         <p className="text-sm tracking-widest text-primary-accent uppercase">

@@ -16,7 +16,7 @@ const ConsultationCTA: React.FC = () => {
 
       {/* Content Overlay */}
       <div
-        className="absolute inset-0 container mx-auto flex items-center justify-center lg:justify-start px-4 lg:px-16"
+        className="absolute inset-0 container mx-auto flex items-center justify-center lg:justify-start px-4 md:px-8"
         data-aos="fade-up"
       >
         <div className="w-full lg:w-1/2 text-center lg:text-left">

@@ -43,8 +43,8 @@ function Hero() {
 
     return (
         <section className='bg-primary-floral overflow-hidden z-10 w-full'>
-            <div className="container mx-auto md:pt-60 pt-28">
-                <div className='grid lg:grid-cols-2 gap-6 px-4 md:px-0 '>
+            <div className="container mx-auto md:pt-60 pt-28 px-4 md:px-8">
+                <div className='grid lg:grid-cols-2 gap-6'>
                     <div className='flex flex-col lg:items-start items-center justify-center lg:mx-0 md:mx-auto lg:max-w-lg' data-aos="fade-up">
                         <h1 className="text-3xl sm:text-5xl font-semibold md:text-6xl text-gray-900 mb-6 lg:text-start text-center">
                             Create & Curate Your Dream <span className="text-black bg-transparent bg-[linear-gradient(270deg,transparent_54%,#EBD1AE_53%)]">Interior</span>

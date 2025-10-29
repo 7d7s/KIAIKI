@@ -59,8 +59,8 @@ const Blog: React.FC = () => {
       />
 
 
-      <section className="px-4 md:px-8 lg:px-16 py-10 md:py-20 bg-white">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+      <section className="py-10 md:py-20 bg-white">
+        <div className="container mx-auto px-4 md:px-8 grid grid-cols-1 lg:grid-cols-3 gap-10">
           {/* Blog List */}
           <div className="lg:col-span-2 grid gap-10">
             {blogs.map((blog, i) => (

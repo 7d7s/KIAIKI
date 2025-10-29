@@ -54,7 +54,7 @@ const sliderSettings = {
 const Testimonials: React.FC = () => {
   return (
     <section className=" bg-white text-gray-800">
-      <div className="container mx-auto px-4 lg:px-16 py-20">
+      <div className="container mx-auto px-4 md:px-8 py-20">
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-8 items-start lg:text-start text-center">
           <div className="col-span-2 lg:col-span-2 space-y-4 flex flex-col lg:justify-start justify-center lg:items-start items-center" data-aos="fade-up">
 

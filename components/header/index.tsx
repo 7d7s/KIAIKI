@@ -74,7 +74,7 @@ export default function NavigationBar() {
         className={`absolute top-0 left-0 right-0 z-30 ${isHomePage ? "bg-primary-floral text-black" : "bg-transparent text-white"
           }`}
       >
-        <header className="container py-5 mx-auto grid lg:grid-cols-6 grid-cols-2 gap-5 justify-evenly items-center lg:px-12 px-4">
+        <header className="container py-5 mx-auto grid lg:grid-cols-6 grid-cols-2 gap-5 justify-evenly items-center px-4 md:px-8">
           <div className="flex items-center">
             <Link href="/">
               <Image

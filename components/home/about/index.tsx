@@ -7,7 +7,7 @@ import Button from "@/components/common/button";
 const About: React.FC = () => {
     return (
         <div className="bg-white md:pb-12">
-            <div className="container px-4 lg:px-16 py-12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <div className="container px-4 md:px-8 py-12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
                 <div className="grid md:grid-cols-2 gap-6" data-aos="fade-up">
                     <Image
                         src="https://res.cloudinary.com/dbldpiazm/image/upload/v1756798297/clinic2_ehfnkt.jpg"

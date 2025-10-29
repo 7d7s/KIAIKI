@@ -89,7 +89,7 @@ const Team = () => {
                 ]} title="Our Teams"
             />
             <section className=" bg-white text-black">
-                <div className="container mx-auto px-4 lg:px-16 md:py-20 py-5 text-center">
+                <div className="container mx-auto px-4 md:px-8 md:py-20 py-5 text-center">
                     <p className="text-sm tracking-widest text-primary-accent uppercase ">Our Team</p>
                     <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">Meet With <span className="text-black bg-transparent bg-[linear-gradient(270deg,transparent_54%,#EBD1AE_53%)] pl-1"> Professional </span> Team</h2>
                     <p className="text-gray-500 max-w-2xl mx-auto mb-12">

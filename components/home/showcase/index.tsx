@@ -52,7 +52,7 @@ const Showcase: React.FC = () => {
 
     return (
         <section className="py-10 bg-primary-floral overflow-hidden">
-            <div className="container mx-auto grid md:grid-cols-2 items-center gap-5 px-4 md:px-16 md:py-12">
+            <div className="container mx-auto grid md:grid-cols-2 items-center gap-5 px-4 md:px-8 md:py-12">
                 {/* Image Slider */}
                 <div
                     className="relative md:h-72 h-52 p-1 md:w-5/6 w-11/12 mt-7"

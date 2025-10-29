@@ -31,7 +31,7 @@ const steps = [
 const OurProcess: React.FC = () => {
   return (
     <section className=" bg-white text-black">
-      <div className="container mx-auto px-4 lg:px-16 md:py-20 py-5">
+      <div className="container mx-auto px-4 md:px-8 md:py-20 py-5">
         <div className="mt-10 grid lg:grid-cols-2 gap-8 items-end">
           <div data-aos="fade-up" >
             <p className="text-sm tracking-widest text-primary-accent uppercase">Our Process</p>

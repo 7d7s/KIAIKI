@@ -16,7 +16,7 @@ function page() {
         ]} title="Our Gallery"
       />
       <section className=" bg-white text-black">
-        <div className="container mx-auto px-4 lg:px-16 md:py-20 py-5">
+        <div className="container mx-auto px-4 md:px-8 md:py-20 py-5">
           <div className="mt-10 text-center flex items-center justify-center">
             <div>
               <p className="text-sm tracking-widest text-primary-accent uppercase">

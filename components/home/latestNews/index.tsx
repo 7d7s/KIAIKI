@@ -30,7 +30,7 @@ const articles = [
 const LatestNews: React.FC = () => {
   return (
     <section className=" bg-white text-black">
-        <div className="container mx-auto px-4 lg:px-16 md:py-20 py-5">
+        <div className="container mx-auto px-4 md:px-8 md:py-20 py-5">
         <div className='flex items-center justify-center flex-col' data-aos="fade-up" data-aos-delay="500">
         <p className="text-sm tracking-widest text-primary-accent uppercase">Our Blog</p>
         <h2 className="text-3xl font-bold mt-5">

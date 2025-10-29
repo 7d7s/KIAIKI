@@ -33,8 +33,8 @@ export default function Gallery() {
 
   return (
     <section className=" bg-white text-black">
-      <div className="container mx-auto px-4 py-5">
-        <div className="mt-10 text-center flex items-center flex-col justify-center">
+      <div className="container mx-auto py-5">
+        <div className="mt-10 text-center flex items-center flex-col justify-center space-y-10">
           <motion.div
             className="flex flex-wrap gap-3 mb-8"
             initial={{ opacity: 0, y: -20 }}
