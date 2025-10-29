@@ -48,7 +48,7 @@ const Hospitals = () => {
             />
             <section className="bg-primary-floral text-gray-500 border-b">
                 <div className="container mx-auto px-4 md:px-8 py-12">
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-20">
                         <div className="lg:col-span-2 overflow-hidden">
                             <Image
                                 src="https://res.cloudinary.com/dbldpiazm/image/upload/v1756798303/hospital_qfq3gd.jpg"
@@ -85,10 +85,8 @@ const Hospitals = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="md:pr-10">
-                            <div className="sticky top-10 px-0 md:px-5">
-                                <ProjectNavigator />
-                            </div>
+                        <div className="sticky top-10">
+                            <ProjectNavigator />
                         </div>
                     </div>
                 </div>
